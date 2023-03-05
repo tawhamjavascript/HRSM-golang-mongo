@@ -1,0 +1,10 @@
+###POST
+
+POST http://127.0.0.1:8000/employees HTTP/1.1
+Content-Type: application/json
+
+{
+  "name" : "ALMEIDA",
+  "salary": 50000,
+  "age": 20
+}
